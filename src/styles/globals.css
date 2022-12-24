@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  background: rgb(46,2,109);
+  background: linear-gradient(90deg, rgba(46,2,109,1) 0%, rgba(21,22,44,1) 100%);
+  min-height: 100vh;
+  flex-wrap: wrap;
+};
+
+footer{
+  align-self: flex-end;
+}

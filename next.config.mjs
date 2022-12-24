@@ -13,5 +13,9 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    // @ts-ignore
+    domains: ['images.unsplash.com', 'cdn.sanity.io', 'dummyimage.com']
+  }
 };
 export default config;
